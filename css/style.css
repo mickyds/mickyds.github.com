@@ -1,0 +1,156 @@
+/* ----    Add your Google Fonts above the rest of your CSS       ----------------------------*/
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+
+
+
+
+/* ----    Keep your CSS organized with comments       ----------------------------==========================================================
+
+CSS COPIED TO EACH PAGE
+
+================================================================== */
+
+body.container-fluid {
+    background: maroon;
+    color: white;
+    height: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+.logo {
+    width: 15%;
+    margin: 20px auto;
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: bottom;
+    bottom: 100%;
+    width: 100%;
+}
+
+
+/* === ==========================================================
+
+CSS FOR BLOGS
+
+================================================================== */
+
+.lorem-ipsum {
+    font-weight: bolder;
+    
+    font-family: calibri;
+}
+
+
+#homepage {
+    margin: auto;
+    width: 10%;
+    background: yellow;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    font-size: 50px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background: yellow;
+}
+
+.tag {
+    padding-top: 10px;
+    font-size: 20;
+}
+
+.interested {
+    font-size: 40px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background: maroon
+}
+
+
+/*-- Blogger --*/
+
+h2.welcome {
+    color: black;
+    font-size: 50px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background: orangered;
+    display: block;
+    text-align: left;
+}
+
+h3.one {
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background: black;
+    display: block;
+    text-align: left;
+}
+
+h5.author-date {
+    background: orangered;
+    color: black;
+    font-size: 20px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: left;
+}
+
+
+.black {
+    background-color: black;
+}
+
+p.blogone {
+    background: bisque;
+    color: black;
+    font-family: cursive;
+    border-top: 10px black solid;
+    border-left: 10px black solid;
+    border-right: 10px black solid;
+    border-bottom: 10px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.blog-row {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.people {
+    background: bisque;
+    color: black;
+    font-family: cursive;
+    border: 10px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3.me {
+    text-align: center;
+}
+
+.personinfo {
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
