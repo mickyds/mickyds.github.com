@@ -49,7 +49,6 @@ CSS FOR BLOGS
 
 #homepage {
     margin: auto;
-    width: 10%;
     background: yellow;
     text-align: center;
 }
@@ -59,11 +58,12 @@ CSS FOR BLOGS
     font-size: 50px;
     font-family: 'ZCOOL KuaiLe', cursive;
     background: yellow;
+    width: 100%;
 }
 
 .tag {
     padding-top: 10px;
-    font-size: 20;
+    font-size: 20px;
 }
 
 .interested {
@@ -75,13 +75,14 @@ CSS FOR BLOGS
 
 /*-- Blogger --*/
 
-h2.welcome {
+.welcome {
     color: black;
     font-size: 50px;
     font-family: 'ZCOOL KuaiLe', cursive;
     background: orangered;
     display: block;
     text-align: left;
+    width: 100%;
 }
 
 h3.one {
@@ -102,10 +103,6 @@ h5.author-date {
 }
 
 
-.black {
-    background-color: black;
-}
-
 p.blogone {
     background: bisque;
     color: black;
@@ -119,33 +116,38 @@ p.blogone {
 }
 
 .blog-row {
-    width: 80%;
+   
     display: block;
     margin: 10px auto;
     padding-bottom: 20px;
     padding-top: 40px;
 }
 
-.people {
-    background: bisque;
+.whoweare {
+    background: antiquewhite;
     color: black;
-    font-family: cursive;
-    border: 10px black solid;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-h3.me {
+.whoWeAre {
     text-align: center;
+    margin: auto
 }
 
-.personinfo {
-    padding-top: 40px;
-    text-align: center;
-    display: block;
-    width: 80%;
-    margin: 0 auto;
+.aboutUsInfo {
+    padding: 20px;
+    border: 10px solid black;
+    border-bottom: 5px dotted black;
 }
+
+.bottomborder {
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+}
+
+.pic {
+    padding: 20px;
 
 
 
